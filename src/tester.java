@@ -7,19 +7,18 @@ public class tester
 	
 	public static void main(String[] args)
 	{
-		//StatsLibrary stats = new StatsLibrary();
-		//System.out.println(stats.binomialDistribution(15, 10, 0.3));
+		StatsLibrary stats = new StatsLibrary();
+		System.out.println(stats.binomialDistribution(15, 10, 0.3));
 
-		//BigInteger n = BigInteger.valueOf(10);
-		//n.
-		//testPerm();
+		BigInteger n = BigInteger.valueOf(10);
+		testPerm();
 		testProject1();
-		//testStatLib();
-		//testProject1();
-		//testSD();
-		//System.out.println("nCr: " + stats.combination(52, 4));
-		//System.out.println("nPr: " +stats.permutation(52, 4));
-		//System.out.println("Factorial: " + stats.factorial(n));
+		testStatLib();
+		testProject1();
+		testSD();
+		System.out.println("nCr: " + stats.combination(52, 4));
+		System.out.println("nPr: " +stats.permutation(52, 4));
+		System.out.println("Factorial: " + stats.factorial(n));
 
 	}
 	public static void testPerm()
