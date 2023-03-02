@@ -13,8 +13,6 @@ public class Permutations {
         int add = 4;                    //Additional probabilities
         boolean inverse = false;        //Inverse?
 
-
-
         int trials = 5;                 //Number of trials simulated
         double p = .50;
 

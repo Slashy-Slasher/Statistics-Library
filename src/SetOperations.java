@@ -80,24 +80,11 @@ public class SetOperations
 			}
 		}
 		return set3;
-		
 	}
 	public ArrayList<Integer> complement(ArrayList<Integer> A, ArrayList<Integer> B)
 	{
 		ArrayList<Integer> C = new ArrayList<Integer>();
-		/*
-		for(int i = 0; i < B.size(); i++)
-		{
-			for(int j = 0; j<A.size();j++)
-			{
-				if(B.get(i) == A.get(j))
-				{
-					
-					
-				}
-			}
-		}
-		*/
+
 		for(int i = 0; i<B.size(); i++)
 		{
 			C.add(B.get(i));
@@ -117,10 +104,7 @@ public class SetOperations
 			}
 		}
 		//System.out.println("UNION OF A AND S" + C);
-		
-		
-		
-		
+
 		return sortAndTrim(C);
 	}
 	
