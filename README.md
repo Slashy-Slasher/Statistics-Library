@@ -29,4 +29,4 @@ A library of statistics algorithms for the 2023 spring semester
       
    **Formula Sheet**
 
-        Theroems and Definitions 
+        Theorems and Definitions for the first three chapters of the Book
