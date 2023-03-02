@@ -23,4 +23,10 @@ A library of statistics algorithms for the 2023 spring semester
    
         Monty Hall problem: Prints the outcome of chaning your choice and not
 
+   **Github essay**
+      
+        One page essay on Gitwork flow
+      
+   **Formula Sheet**
 
+        Theroems and Definitions 
